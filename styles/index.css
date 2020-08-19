@@ -78,8 +78,10 @@ nav a:hover::before{
     margin-left: 15%;
 }
 .recipe{
+    border: 3px solid #4f4589;
     vertical-align: top;
     display: inline;
+    width: 100%;
     background-color: rgba(173, 151, 191, 0.8);
 }
 .recipe1 img{
@@ -104,8 +106,10 @@ nav a:hover::before{
 }
 p {
     color: #fac705;
+    justify-items: center;
     text-align: center;
-    margin: 5% 5% 0 5%;
+    width: 80%;
+    margin: 3% 10% 0 10%;
     font-family: 'Red Rose', cursive;
     font-size: 20px;
 }
@@ -133,4 +137,18 @@ p {
     background-size: cover;
     top: 200%;
     background-attachment: fixed;
+}
+footer {
+    background-color: #2f2f75;
+    margin-bottom: 0;
+    height: 80px;
+  }
+
+footer p{
+    font-size: 15px;
+    padding: 20px;
+    position: relative;
+    align-items: center;
+    justify-items: center;
+
 }
