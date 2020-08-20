@@ -6,3 +6,12 @@
     background-image: url(../images/1193613.jpg);
     background-size: auto;
 }
+.share img{
+    width: 350px;
+    height: 300px;
+    float: left;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 20px;
+    border: 3px solid #4f4589;
+}
