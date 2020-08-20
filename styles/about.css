@@ -1,0 +1,13 @@
+.team{
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/1193613.jpg);
+    background-size: auto;
+}
+.team.people{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
