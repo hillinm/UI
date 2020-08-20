@@ -1,11 +1,10 @@
 iframe{
-    margin: 10% 20% 0 20%;
+    margin: 2% 20% 0 20%;
     width: 60%;
     height: 60%;
     align-items: center;
 }
 .map{
-
     position: absolute;
     width: 100%;
     height: 100%;
