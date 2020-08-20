@@ -1,0 +1,17 @@
+.adobo_recipe {
+    color: white;
+    width: 60%;
+    text-align: left;
+    margin-left: 15%;
+}
+.adobo_recipe h1{
+    color: white;
+    text-align: center;
+}
+.adobo_recipe li{
+    width: 100%;
+    margin-left: 25%;
+}
+.adobo_recipe p{
+    color: white;
+}
