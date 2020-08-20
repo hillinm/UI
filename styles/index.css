@@ -1,15 +1,16 @@
 
 body{
     margin: 0;
+    background-color: #2f2f75;
 }
 .container {
     width: 80%;
     margin: 0 auto;
 }
-header {
+.top {
     background: #2f2f75;
 }
-header::after {
+.top::after {
     content: '';
     display: table;
     clear: both;
@@ -57,7 +58,7 @@ nav a::before {
 nav a:hover::before{
     width: 100%;
 }
-#main1{
+.main1{
 
     position: absolute;
     width: 100%;
@@ -65,13 +66,13 @@ nav a:hover::before{
     background-image: url(../images/1193613.jpg);
     background-size: cover;
 }
-#main1_wrapper{
+.main1_wrapper{
     position: absolute;
     width: 100%;
     height: 100%;
 }
 .recipe1{
-    justify-items: center;
+    align-items: center;
     display: flex;
     width: 60%;
     margin-top: 10%;
@@ -81,7 +82,6 @@ nav a:hover::before{
     border: 3px solid #4f4589;
     vertical-align: top;
     display: inline;
-    width: 100%;
     background-color: rgba(173, 151, 191, 0.8);
 }
 .recipe1 img{
@@ -113,35 +113,10 @@ p {
     font-family: 'Red Rose', cursive;
     font-size: 20px;
 }
-
-#main2{
-
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/main2.jpg);
-    background-size: cover;
-    top: 100%;
-    background-attachment: fixed;
-}
-#main2_wrapper{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-}
-#main3{
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-image: url(../images/main3.jpg);
-    background-size: cover;
-    top: 200%;
-    background-attachment: fixed;
-}
 footer {
     background-color: #2f2f75;
-    margin-bottom: 0;
-    height: 80px;
+    margin-top: 50%;
+    height: 100px;
   }
 
 footer p{
