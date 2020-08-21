@@ -31,6 +31,7 @@
     border: 3px solid #4f4589;
     background-color: rgba(173, 151, 191, 0.8);
     color: #fac705;
+    display: flex;
 }
 .content-row h1{
     font-size: 18px;
@@ -48,11 +49,24 @@
     text-align: left;
     margin-left: 0;
 }
-.content-row {
-    display: flex;
-  }
+
   
 .content-row div {
     /*======= create a margin propery.  Set the value to 20px */
     margin: 20px;
   }
+
+@media (max-width:600px){
+    .content-row {
+        align-items: center;
+        width: 90%;
+        margin-left: 5%;
+        border: 0px solid #4f4589;
+        background-color:#4f4589;
+        color: #fac705;
+        display: inline;
+    }
+    .content-img {
+        text-align: center;
+    }
+}
