@@ -56,10 +56,9 @@
     margin: 20px;
   }
 
-@media (max-width:600px){
+@media (max-width:1000px){
     .content-row {
         align-items: center;
-        width: 90%;
         margin-left: 5%;
         border: 0px solid #4f4589;
         background-color:#4f4589;
