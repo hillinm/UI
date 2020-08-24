@@ -23,6 +23,7 @@
     margin: 10px;
     border-radius: 20px;
     border: 3px solid #4f4589;
+    box-shadow: 10px 10px #272144;
 }
 .content-row {
     align-items: center;
