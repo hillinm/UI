@@ -1,3 +1,7 @@
+body{
+    background-image: url(../images/1193613.jpg);
+    background-size: auto;
+}
 iframe{
     margin: 2% 20% 0 20%;
     width: 60%;
@@ -6,10 +10,10 @@ iframe{
 }
 .map{
     position: absolute;
+    margin-top: 10%;
     width: 100%;
     height: 100%;
-    background-image: url(../images/1193613.jpg);
-    background-size: auto;
+
 }
 .map p {
     color: #fac705;
