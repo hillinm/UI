@@ -134,7 +134,7 @@ nav a:hover::before{
 .container2 {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    justify-content: center;
     margin-bottom: 60px;
     }
 .featured {
@@ -145,7 +145,16 @@ nav a:hover::before{
     width: 400px;
     margin: 2% 0 0 0;
 }
-
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    opacity: 50%;
+  }
 .company img{
     border-radius: 18px;
     display: block;
