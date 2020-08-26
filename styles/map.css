@@ -29,3 +29,37 @@ iframe{
     font-size: 26px;
     text-align: center;
 }
+@media (max-width: 1000px) {
+    body{
+        background-image: none;
+        background-color: #4f4589;
+    }
+    .top {
+        background-color: #4f4589;
+        overflow: visible;
+        position: relative;
+    }
+    iframe {
+        height: 700px;
+    }
+    .map {
+        margin-top: 40%;
+    }
+@media (max-width: 500px) {
+    body{
+        background-image: none;
+        background-color: #4f4589;
+    }
+    .top {
+        background-color: #4f4589;
+        overflow: visible;
+        position: relative;
+    }
+    iframe {
+        height: 700px;
+    }
+    .map {
+        margin-top: 70%;
+    }
+    }
+}

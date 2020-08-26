@@ -30,8 +30,18 @@ body{
     font-size: 18px;
 }
 @media (max-width:1000px){
+    body{
+        background-image: none;
+        background-color: #4f4589;
+    }
     .people {
         width: 100%;
-        margin: 2% 0 0 0;
+        margin: 30% 0 0 0;
+    }
+    .team {
+        display: block;
+        align-items: bottom;
+        margin-top: 10px;
     }    
+
 }

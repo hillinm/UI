@@ -15,7 +15,7 @@ body{
     background-image: url(../images/1193613.jpg);
 }
 .front{
-    text-align: left;
+    width: 100%;
     margin-top: 10%;
 }
 .top::after {
@@ -119,8 +119,7 @@ nav a:hover::before{
     color: #fac705;
     justify-items: center;
     text-align: center;
-    width: 40%;
-    margin: 3% 30% 0 30%;
+    margin: 3% 20% 0 20%;
     font-family: 'Red Rose', cursive;
     font-size: 18px;
 }
@@ -220,6 +219,16 @@ justify-content: center;
         margin: 0 0 0 0;
         text-align: center;
     }
+    .front {
+        margin-top: 50%;
+    }
+    .main2 {
+        margin-top: 60%;
+    }
+    .container2 {
+        display: flex;
+        justify-content: center;
+    }
     nav {
         float: right;
         width: 100%;
@@ -261,6 +270,68 @@ justify-content: center;
         font-size: 12px;
         color: #4f4589;
     }
+    @media (max-width: 500px){
+        .top {
+            background: #2f2f75;
+            display: block;
+            overflow: hidden;
+            position: relative;
+        }
+        .container{
+            display: block;
+            margin: 0 0 0 0;
+            text-align: center;
+        }
+        .front {
+            margin-top: 50%;
+        }
+        .main2 {
+            margin-top: 160%;
+        }
+        .container2 {
+            display: flex;
+            justify-content: center;
+        }
+        nav {
+            float: right;
+            width: 100%;
+            }
+        nav li {
+            display: block;
+            padding-top: 10px;
+            justify-content: center;
+        }
+        nav ul {
+            margin-top: 10%;
+            list-style: none;
+        }
+        .logo{
+            float: left;
+            margin-left: 40%;
+        }
+        .recipe1{
+            display: block;
+            max-width: 100%;
+            text-align: center;
+            margin-left: 0%;
+            justify-content: space-between;
+        }
+        .recipe{
+            border: 3px solid #4f4589;
+            vertical-align: top;
+            background-color: rgba(173, 151, 191, 0.8);
+        }
+        .recipe1 img{
+            max-width: 200px;
+        }
+        .recipe1 h1{
+            font-size: 18px;
+            text-align: center;
+            color: #4f4589;
+        }
+        .recipe1 p{
+            font-size: 12px;
+            color: #4f4589;
+        }
+    }
 }
-
-
