@@ -2,6 +2,9 @@ body{
     position: absolute;
     background-image: url(../images/1193613.jpg);
     background-size: auto;
+    background-attachment: fixed;
+    object-fit: fill;
+    background-size: cover;
 }
 .team{
     display: flex;

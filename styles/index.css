@@ -68,6 +68,9 @@ nav a:hover::before{
     background-image: url(../images/1193613.jpg);
     align-items: center;
     padding: 50px;
+    background-attachment: fixed;
+    object-fit: fill;
+    background-size: cover;
 }
 .main1 h2{
     color: #fac705;
