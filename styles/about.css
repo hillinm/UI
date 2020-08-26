@@ -9,12 +9,10 @@ body{
     justify-content: space-between;
     align-items: bottom;
 }
-
 .people {
     width: 400px;
     margin: 2% 0 0 0;
 }
-
 .team img{
     border-radius: 18px;
     display: block;
@@ -43,5 +41,4 @@ body{
         align-items: bottom;
         margin-top: 10px;
     }    
-
 }

@@ -2,14 +2,12 @@
 body{
     margin: 0;
     height: 80%;
-/*    background-color: #2f2f75;*/
 }
 .container {
     width: 80%;
     height: 40%;
     margin: 0 auto;
 }
-
 .top {
     background: #2f2f75;
     background-image: url(../images/1193613.jpg);
@@ -57,7 +55,6 @@ nav a::before {
     height: 5px;
     width: 100px;
     background-color: #e9b097;
-
     position: absolute;
     top: 0;
     width: 0%;
@@ -77,8 +74,6 @@ nav a:hover::before{
     font-size: 26px;
     text-align: center;
 }
-
-
 .recipe1{
     display: inline-flex;
     max-width: 60%;
@@ -130,7 +125,6 @@ nav a:hover::before{
     justify-content: space-between;
     align-items: bottom;
     }
-
 .container2 {
     display: flex;
     flex-wrap: wrap;
@@ -168,7 +162,6 @@ hr {
     font-family: 'Red Rose', cursive;
     font-size: 18px;
 }
-
 .fa {
     padding: 15px;
     font-size: 10px;
@@ -178,11 +171,9 @@ hr {
     text-decoration: none;
     border-radius: 50%;
   }
-  
 .fa:hover {
 opacity: 0.7;
 }
-
 .fa-facebook {
     background: #3B5998;
     color: white;
@@ -195,12 +186,10 @@ opacity: 0.7;
 background: #bb0000;
 color: white;
 }
-
 .fa-instagram {
 background: #125688;
 color: white;
 }
-
 .fa-pinterest {
 background: #cb2027;
 color: white;
