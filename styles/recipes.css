@@ -1,6 +1,14 @@
+.top {
+    background: #2f2f75;
+    background-image: none;
+}
+.container {
+    background: #4f4589;
+}
 .adobo_recipe {
     align-items: center;
     width: 70%;
+    margin-top: 10%;
     margin-left: 15%;
     border: 3px solid #4f4589;
     background-color: rgba(173, 151, 191, 0.8);
