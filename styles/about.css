@@ -6,6 +6,9 @@ body{
     object-fit: fill;
     background-size: cover;
 }
+
+/*This is my main flex section */
+
 .team{
     display: flex;
     flex-wrap: wrap;
@@ -30,6 +33,9 @@ body{
     font-family: 'Red Rose', cursive;
     font-size: 18px;
 }
+
+/*Mobile Friendly */
+
 @media (max-width:1000px){
     body{
         background-image: none;
