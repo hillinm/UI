@@ -2,6 +2,9 @@
     background: #2f2f75;
     background-image: none;
 }
+
+/*These are for recipes that we want to share and feature */
+
 .share{
 
     position: absolute;
@@ -60,6 +63,9 @@
 .content-row div {
     margin: 20px;
   }
+
+/*Mobile Friendly */
+
 @media (max-width:1000px){
     .content-row {
         align-items: center;
