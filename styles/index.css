@@ -1,3 +1,4 @@
+/* These first styles are for the whole page */
 
 body{
     margin: 0;
@@ -26,6 +27,9 @@ body{
     padding: 10px 0;
     max-width: 175px;
 }
+
+/* Navigation Bar */
+
 nav {
     float: right;
 }
@@ -63,6 +67,9 @@ nav a::before {
 nav a:hover::before{
     width: 100%;
 }
+
+/*This is my main section of my page */
+
 .main1{
     position: absolute;
     background-image: url(../images/1193613.jpg);
@@ -77,6 +84,51 @@ nav a:hover::before{
     font-size: 26px;
     text-align: center;
 }
+.main1 p{
+    color: #fac705;
+    justify-items: center;
+    text-align: center;
+    margin: 3% 20% 0 20%;
+    font-family: 'Red Rose', cursive;
+    font-size: 18px;
+}
+.main2 {
+    position: absolute;
+    top: 900px;
+    margin: 100px;
+    justify-content: space-between;
+    align-items: bottom;
+    }
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 60px;
+    }
+.featured {
+    font-family: 'Dancing Script', cursive;
+    font-size: 50px;
+}
+.company {
+    width: 400px;
+    margin: 2% 0 0 0;
+}
+.company img{
+    border-radius: 18px;
+    display: block;
+    margin: 10px auto 0 auto;
+    width: 200px;
+}
+.company p {
+    color: #fac705;
+    justify-items: center;
+    text-align: center;
+    font-family: 'Red Rose', cursive;
+    font-size: 18px;
+}
+
+/*This is for my front page recipe */
+
 .recipe1{
     display: inline-flex;
     max-width: 60%;
@@ -113,58 +165,10 @@ nav a:hover::before{
     cursor: pointer;
     margin: 5px;
 }
-.main1 p{
-    color: #fac705;
-    justify-items: center;
-    text-align: center;
-    margin: 3% 20% 0 20%;
-    font-family: 'Red Rose', cursive;
-    font-size: 18px;
-}
-.main2 {
-    position: absolute;
-    top: 900px;
-    margin: 100px;
-    justify-content: space-between;
-    align-items: bottom;
-    }
-.container2 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 60px;
-    }
-.featured {
-    font-family: 'Dancing Script', cursive;
-    font-size: 50px;
-}
-.company {
-    width: 400px;
-    margin: 2% 0 0 0;
-}
-hr {
-    display: block;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-    margin-left: auto;
-    margin-right: auto;
-    border-style: inset;
-    border-width: 1px;
-    opacity: 50%;
-  }
-.company img{
-    border-radius: 18px;
-    display: block;
-    margin: 10px auto 0 auto;
-    width: 200px;
-}
-.company p {
-    color: #fac705;
-    justify-items: center;
-    text-align: center;
-    font-family: 'Red Rose', cursive;
-    font-size: 18px;
-}
+
+
+/*Social Media */
+
 .fa {
     padding: 15px;
     font-size: 10px;
@@ -208,6 +212,9 @@ justify-content: center;
     font-family: 'Dancing Script', cursive;
     font-size: 20px;
 }
+
+/*Mobile Friendly */
+
 @media (max-width: 1000px){
     .top {
         background: #2f2f75;
