@@ -1,3 +1,5 @@
+/*This page is created for the featured recipe on main page */
+
 .top {
     background: #2f2f75;
     background-image: none;
@@ -5,6 +7,9 @@
 .container {
     background: #4f4589;
 }
+
+/*Recipe Card*/
+
 .adobo_recipe {
     align-items: center;
     width: 70%;
